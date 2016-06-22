@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C32CAB81D0C3C0700F41F40 /* roundedImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */; };
 		2C32CABA1D0C474C00F41F40 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32CAB91D0C474C00F41F40 /* profileViewController.swift */; };
+		2C6790D11D1A96500090999B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6790D01D1A96500090999B /* Assets.xcassets */; };
 		2CB07F8A1D08288900B010AC /* image buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F871D08288900B010AC /* image buttons.swift */; };
 		2CB07F8B1D08288900B010AC /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F881D08288900B010AC /* TextField.swift */; };
 		2CB07F8C1D08288900B010AC /* rounded buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB07F891D08288900B010AC /* rounded buttons.swift */; };
@@ -19,7 +19,6 @@
 		479C78BF1CF4C22400EC27D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C78BE1CF4C22400EC27D2 /* AppDelegate.swift */; };
 		479C78C11CF4C22400EC27D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C78C01CF4C22400EC27D2 /* ViewController.swift */; };
 		479C78C41CF4C22400EC27D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479C78C21CF4C22400EC27D2 /* Main.storyboard */; };
-		479C78C61CF4C22400EC27D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479C78C51CF4C22400EC27D2 /* Assets.xcassets */; };
 		479C78C91CF4C22400EC27D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479C78C71CF4C22400EC27D2 /* LaunchScreen.storyboard */; };
 		479C78E01CF4C3C100EC27D2 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479C78DC1CF4C3C100EC27D2 /* NotoSans-Bold.ttf */; };
 		479C78E11CF4C3C100EC27D2 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479C78DD1CF4C3C100EC27D2 /* NotoSans-BoldItalic.ttf */; };
@@ -35,8 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundedImageViews.swift; sourceTree = "<group>"; };
 		2C32CAB91D0C474C00F41F40 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		2C6790D01D1A96500090999B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB07F871D08288900B010AC /* image buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "image buttons.swift"; sourceTree = "<group>"; };
 		2CB07F881D08288900B010AC /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		2CB07F891D08288900B010AC /* rounded buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "rounded buttons.swift"; sourceTree = "<group>"; };
@@ -48,7 +47,6 @@
 		479C78BE1CF4C22400EC27D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		479C78C01CF4C22400EC27D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		479C78C31CF4C22400EC27D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		479C78C51CF4C22400EC27D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		479C78C81CF4C22400EC27D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		479C78CA1CF4C22400EC27D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		479C78DC1CF4C3C100EC27D2 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -109,7 +107,8 @@
 				479C78BE1CF4C22400EC27D2 /* AppDelegate.swift */,
 				479C78C21CF4C22400EC27D2 /* Main.storyboard */,
 				2C32CAB91D0C474C00F41F40 /* profileViewController.swift */,
-				479C78C51CF4C22400EC27D2 /* Assets.xcassets */,
+				2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */,
+				2C6790D01D1A96500090999B /* Assets.xcassets */,
 				479C78C71CF4C22400EC27D2 /* LaunchScreen.storyboard */,
 				479C78CA1CF4C22400EC27D2 /* Info.plist */,
 			);
@@ -134,8 +133,6 @@
 				2CB07F871D08288900B010AC /* image buttons.swift */,
 				2CB07F881D08288900B010AC /* TextField.swift */,
 				2CB07F891D08288900B010AC /* rounded buttons.swift */,
-				2C32CAB71D0C3C0700F41F40 /* roundedImageViews.swift */,
-				2CB07F8F1D08303100B010AC /* CreateProfileViewController.swift */,
 				473C43721CFE847F00A4617E /* PostCell.swift */,
 			);
 			name = View;
@@ -259,8 +256,8 @@
 				479C78C91CF4C22400EC27D2 /* LaunchScreen.storyboard in Resources */,
 				479C78E11CF4C3C100EC27D2 /* NotoSans-BoldItalic.ttf in Resources */,
 				479C78E21CF4C3C100EC27D2 /* NotoSans-Italic.ttf in Resources */,
-				479C78C61CF4C22400EC27D2 /* Assets.xcassets in Resources */,
 				479C78C41CF4C22400EC27D2 /* Main.storyboard in Resources */,
+				2C6790D11D1A96500090999B /* Assets.xcassets in Resources */,
 				479C78E31CF4C3C100EC27D2 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +332,6 @@
 				479C78BF1CF4C22400EC27D2 /* AppDelegate.swift in Sources */,
 				479C78E81CF4CF8800EC27D2 /* Constants.swift in Sources */,
 				479C78EA1CF4FF1000EC27D2 /* MaterialButton.swift in Sources */,
-				2C32CAB81D0C3C0700F41F40 /* roundedImageViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
