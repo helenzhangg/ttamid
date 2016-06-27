@@ -200,12 +200,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 479C78CD1CF4C22400EC27D2 /* Build configuration list for PBXNativeTarget "tamidShowcase" */;
 			buildPhases = (
+				016B4E28020AECFB7AE3A3E5 /* 📦 Check Pods Manifest.lock */,
 				745B2731B8C2CEFE7A521FB1 /* [CP] Check Pods Manifest.lock */,
 				479C78B71CF4C22400EC27D2 /* Sources */,
 				479C78B81CF4C22400EC27D2 /* Frameworks */,
 				479C78B91CF4C22400EC27D2 /* Resources */,
 				36A2962A61CB9A2340041CD9 /* [CP] Embed Pods Frameworks */,
 				ED26CC31CEA880EE13F8FDD9 /* [CP] Copy Pods Resources */,
+				A3A83C883C89C412D118B109 /* 📦 Embed Pods Frameworks */,
+				6912F74E1EE5A4298B594923 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +271,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		016B4E28020AECFB7AE3A3E5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		36A2962A61CB9A2340041CD9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +301,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tamidShowcase/Pods-tamidShowcase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6912F74E1EE5A4298B594923 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tamidShowcase/Pods-tamidShowcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		745B2731B8C2CEFE7A521FB1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,6 +329,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A83C883C89C412D118B109 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tamidShowcase/Pods-tamidShowcase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED26CC31CEA880EE13F8FDD9 /* [CP] Copy Pods Resources */ = {
